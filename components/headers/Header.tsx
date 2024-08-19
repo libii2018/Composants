@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
-export default function Header3() {
+export default function Header() {
   return (
     <div className="px-[5%] py-16 lg:px-0">
       <div className="flex flex-col gap-y-[--gap-y-1] lg:grid lg:grid-cols-2 lg:gap-x-[--gap-x-1] lg:items-center">

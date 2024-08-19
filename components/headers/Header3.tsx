@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 
-export default function Header2() {
+export default function Header3() {
   return (
     <div className="px-[5%] py-16 lg:px-0 relative">
       <div className="flex flex-col gap-y-12 lg:grid lg:grid-cols-2 lg:gap-x-12 lg:items-center">
@@ -22,7 +22,7 @@ export default function Header2() {
           </div>
         </div>
       </div>
-      <div className="absolute top-0 left-0 right-0 bottom-0 z-[-1]">
+      <div className="absolute top-0 left-0 right-0 bottom-0 z-[-1] bg-gradient-[]">
         <Image
           src="img/6243807090316259584aee68_placeholder-video-thumbnail.svg"
           width={550}
