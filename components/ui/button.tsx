@@ -10,6 +10,8 @@ const buttonVariants = cva("", {
       default: "bg-primary text-primary-foreground hover:bg-primary/90",
       secondary: "bg-white text-center text-black border-black",
       link: "bg-white text-center text-black",
+      third: "bg-black text-white border-black",
+      four: "bg-transparent text-center text-white border-white",
     },
     size: {
       default: "h-10 px-4 py-2",
@@ -18,6 +20,8 @@ const buttonVariants = cva("", {
       icon: "h-10 w-10",
       secondary: "border-2 py-3 px-6",
       link: "border-x px-3 gap-2 flex justify-center items-center",
+      third: "border-2 py-3 px-6",
+      four: "border-2 py-3 px-6",
     },
   },
   defaultVariants: {
