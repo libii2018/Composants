@@ -1,11 +1,10 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import React from "react";
 
-export default function Header1() {
+export default function Header3() {
   return (
     <div className="px-[5%] py-16 lg:px-0">
-      <div className="flex flex-col gap-y-12 lg:grid lg:grid-cols-2 lg:gap-x-12 lg:items-center">
+      <div className="flex flex-col gap-y-[--gap-y-1] lg:grid lg:grid-cols-2 lg:gap-x-[--gap-x-1] lg:items-center">
         <div className="pl-[5%]">
           <div className="flex flex-col">
             <div className="mt-0 mr-0 mb-4 ml-0">
@@ -40,7 +39,7 @@ export default function Header1() {
                       <path
                         d="M6 3L11 8L6 13"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       ></path>
                     </svg>
                   </div>
@@ -50,11 +49,11 @@ export default function Header1() {
           </div>
         </div>
         <Image
-          src="img/placeholder-image.svg"
+          src="img/6243807090316259584aee68_placeholder-video-thumbnail.svg"
           width={550}
           height={550}
           alt="palcehplder"
-          className="w-full object-cover"
+          className="w-full object-cover text-black"
         />
       </div>
     </div>

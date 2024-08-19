@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Header2() {
   return (
-    <div className="px-[5%] py-16 lg:px-0">
+    <div className="px-[5%] py-16 lg:px-0 relative">
       <div className="flex flex-col gap-y-12 lg:grid lg:grid-cols-2 lg:gap-x-12 lg:items-center">
         <div className="pl-[5%]">
           <div className="flex flex-col">
@@ -21,12 +21,14 @@ export default function Header2() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="absolute top-0 left-0 right-0 bottom-0 z-[-1]">
         <Image
-          src="img/6243807090316203124aee66_placeholder-image.svg"
+          src="img/6243807090316259584aee68_placeholder-video-thumbnail.svg"
           width={550}
           height={550}
           alt="palcehplder"
-          className="w-full object-cover"
+          className="w-full object-cover text-black"
         />
       </div>
     </div>
