@@ -82,6 +82,10 @@
   }
 }
 
+body {
+  font-size: 100%;
+}
+
 @layer base {
   * {
     @apply border-border;
