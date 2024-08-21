@@ -1,5 +1,6 @@
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import ButtonSecondary from "../uikit/buttons/ButtonSecondary";
+import ButtonLink from "../uikit/buttons/ButtonLink";
 
 export default function Header2() {
   return (
@@ -23,27 +24,8 @@ export default function Header2() {
             </p>
             <div className="mt-8 mr-0 mb-0 ml-0">
               <div className="flex items-center gap-4">
-                <Button variant={"secondary"} size={"secondary"}>
-                  Button
-                </Button>
-                <Button variant={"link"} size={"link"}>
-                  Button{" "}
-                  <div className="flex flex-col items-center w-4 h-4 justify-center">
-                    <svg
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M6 3L11 8L6 13"
-                        stroke="CurrentColor"
-                        strokeWidth="1.5"
-                      ></path>
-                    </svg>
-                  </div>
-                </Button>
+                <ButtonSecondary>Button</ButtonSecondary>
+                <ButtonLink>Button</ButtonLink>
               </div>
             </div>
           </div>

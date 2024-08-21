@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import { Button } from "../ui/button";
+import ButtonThird from "../uikit/buttons/ButtonThird";
+import ButtonFive from "../uikit/buttons/ButtonFive";
 
 export default function Header7() {
   return (
@@ -31,12 +32,8 @@ export default function Header7() {
               </p>
               <div className="mt-8 mr-0 mb-0 ml-0">
                 <div className="flex items-center gap-4">
-                  <Button variant={"third"} size={"third"}>
-                    Button
-                  </Button>
-                  <Button variant={"five"} size={"five"}>
-                    Button
-                  </Button>
+                  <ButtonThird>Button</ButtonThird>
+                  <ButtonFive>Button</ButtonFive>
                 </div>
               </div>
             </div>

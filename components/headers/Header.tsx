@@ -1,5 +1,6 @@
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import ButtonVersion1 from "../uicustom/buttons/ButtonVersion1";
+import ButtonVersion2 from "../uicustom/buttons/ButtonVersion2";
 
 export default function Header() {
   return (
@@ -23,27 +24,8 @@ export default function Header() {
             </p>
             <div className="mt-8 mr-0 mb-0 ml-0">
               <div className="flex items-center gap-4">
-                <Button variant={"secondary"} size={"secondary"}>
-                  Button
-                </Button>
-                <Button variant={"link"} size={"link"}>
-                  Button{" "}
-                  <div className="flex flex-col items-center w-4 h-4 justify-center">
-                    <svg
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M6 3L11 8L6 13"
-                        stroke="CurrentColor"
-                        strokeWidth="1.5"
-                      ></path>
-                    </svg>
-                  </div>
-                </Button>
+                <ButtonVersion1>Button</ButtonVersion1>
+                <ButtonVersion2>Button</ButtonVersion2>
               </div>
             </div>
           </div>

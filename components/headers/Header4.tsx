@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
+import ButtonSubmit from "../uikit/buttons/ButtonSubmit";
+import ButtonLink2 from "../uikit/buttons/ButtonLink2";
 
 export default function Header3() {
   return (
@@ -30,15 +32,11 @@ export default function Header3() {
                     placeholder="Enter your email"
                     className="border border-black h-auto min-h-11 mb-0 px-2 py-3 text-base leading-relaxed bg-white text-white"
                   />
-                  <Button variant={"submit"} size={"submit"} asChild>
-                    <input type="submit" value="Sign up" />
-                  </Button>
+                  <ButtonSubmit>Sign up</ButtonSubmit>
                 </form>
                 <div className="text-white text-xs">
                   By clicking Sign Up you're confirming that you agree with our{" "}
-                  <Button variant={"link2"} size={"link2"}>
-                    <a href="#">Terms and Conditions</a>
-                  </Button>
+                  <ButtonLink2>Terms and Conditions</ButtonLink2>
                 </div>
               </div>
             </div>
