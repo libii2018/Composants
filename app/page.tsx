@@ -18,11 +18,11 @@ export default function Home() {
     <div className="w-max-[1440px]">
       <h1>Header 1</h1>
       <Header />
-      {/* <h1>Header 2</h1>
+      <h1>Header 2</h1>
       <Header1 />
       <h1>Header 3</h1>
       <Header2 />
-      <h1>Header 4</h1>
+      {/* <h1>Header 4</h1>
       <Header3 />
       <h1>Header 5</h1>
       <Header4 />

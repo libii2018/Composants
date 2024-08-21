@@ -1,11 +1,12 @@
 import React from "react";
 type Props = {
   children: string;
+  className: string;
 };
 
-export default function CardDescription({ children }: Props) {
+export default function CardDescription({ className, children }: Props) {
   return (
-    <div>
+    <div className={className}>
       <p className="text-lg">{children}</p>
     </div>
   );

@@ -2,8 +2,9 @@ import React from "react";
 
 type Props = {
   children: React.ReactNode;
+  className: string;
 };
 
-export default function Card({ children }: Props) {
-  return <div>{children}</div>;
+export default function Card({ className, children }: Props) {
+  return <div className={className}>{children}</div>;
 }
