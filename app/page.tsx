@@ -22,13 +22,13 @@ export default function Home() {
       <Header1 />
       <h1>Header 3</h1>
       <Header2 />
-      {/* <h1>Header 4</h1>
+      <h1>Header 4</h1>
       <Header3 />
       <h1>Header 5</h1>
       <Header4 />
       <h1>Header 6</h1>
       <Header5 />
-      <h1>Header 7</h1>
+      {/* <h1>Header 7</h1>
       <Header6 />
       <h1>Header 8</h1>
       <Header7 />

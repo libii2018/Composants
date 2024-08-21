@@ -3,11 +3,12 @@ import React from "react";
 
 type Props = {
   children: string;
+  className: string;
 };
 
-export default function ButtonSubmit({ children }: Props) {
+export default function ButtonSubmit({ className, children }: Props) {
   return (
-    <Button variant={"submit"} size={"submit"} asChild>
+    <Button className={className} variant={"submit"} size={"submit"} asChild>
       <input type="submit" value={children} />
     </Button>
   );

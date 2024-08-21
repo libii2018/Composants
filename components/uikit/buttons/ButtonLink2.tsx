@@ -3,11 +3,12 @@ import React from "react";
 
 type Props = {
   children: string;
+  className: string;
 };
 
-export default function ButtonLink2({ children }: Props) {
+export default function ButtonLink2({ className, children }: Props) {
   return (
-    <Button variant={"link2"} size={"link2"}>
+    <Button className={className} variant={"link2"} size={"link2"}>
       <a href="#">{children}</a>
     </Button>
   );

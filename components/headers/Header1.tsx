@@ -1,9 +1,8 @@
-import Image from "next/image";
-import HeaderGen1 from "../uikit/layout/headers/HeaderGen1";
+import HeaderGen from "../uikit/layout/headers/HeaderGen";
 
 export default function Header1() {
   return (
-    <HeaderGen1
+    <HeaderGen
       orientation="vertion3"
       title="Medium length section heading goes here"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse

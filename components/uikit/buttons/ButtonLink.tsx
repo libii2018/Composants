@@ -3,11 +3,12 @@ import React from "react";
 
 type Props = {
   children: string;
+  className: string;
 };
 
-export default function ButtonLink({ children }: Props) {
+export default function ButtonLink({ className, children }: Props) {
   return (
-    <Button variant={"link"} size={"link"}>
+    <Button className={className} variant={"link"} size={"link"}>
       Button{" "}
       <div className="flex flex-col items-center w-4 h-4 justify-center">
         <svg

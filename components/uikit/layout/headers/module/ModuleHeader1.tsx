@@ -36,7 +36,10 @@ export default function ModuleHeader1({
   let classname4: string = "";
   let classname5: string = "";
   let classname6: string = "";
-  if (orientation === "verticale") {
+  let classname7: string = "";
+  let classname8: string = "";
+  let classname9: string = "";
+  if (orientation === "vertical") {
     classname1 = "flex flex-col";
   } else if (orientation === "horizontal") {
     classname1 = "w-full max-w-[80rem] mx-auto py-12";
@@ -47,6 +50,11 @@ export default function ModuleHeader1({
     classname2 = "text-center max-w-[48rem] margin-auto";
     classname1 = "flex flex-col gap-y-12 justify-center items-center";
     classname6 = "justify-center";
+  } else if (orientation === "overlay") {
+    classname2 = "text-center text-white max-w-[48rem] margin-auto";
+    classname1 = "flex flex-col gap-y-12 justify-center items-center";
+    classname6 = "justify-center text-white";
+    classname9 = "text-white";
   }
   return (
     <div className="pl-[5%]">
@@ -63,12 +71,15 @@ export default function ModuleHeader1({
             <CardFooter className={classname5}>
               {btnName1 && btnName2 && (
                 <BtnLayout1 className={classname6}>
-                  <ButtonSecondary>{btnName1}</ButtonSecondary>
-                  <ButtonLink>{btnName2}</ButtonLink>
+                  <ButtonSecondary className={classname7}>
+                    {btnName1}
+                  </ButtonSecondary>
+                  <ButtonLink className={classname8}>{btnName2}</ButtonLink>
                 </BtnLayout1>
               )}
               {btnNameInput && inputNamePlaceholder && (
                 <Form1
+                  className={classname9}
                   btnNameInput={btnNameInput}
                   inputNamePlaceholder={inputNamePlaceholder}
                 />

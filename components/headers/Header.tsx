@@ -1,9 +1,9 @@
 import Image from "next/image";
-import HeaderGen1 from "../uikit/layout/headers/HeaderGen1";
+import HeaderGen from "../uikit/layout/headers/HeaderGen";
 
 export default function Header() {
   return (
-    <HeaderGen1
+    <HeaderGen
       orientation="horizontal"
       tag="Tagline"
       title="Medium length section heading goes here"

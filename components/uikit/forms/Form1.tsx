@@ -5,11 +5,16 @@ import ButtonLink2 from "../buttons/ButtonLink2";
 type Props = {
   btnNameInput: string;
   inputNamePlaceholder: string;
+  className: string;
 };
 
-export default function Form1({ btnNameInput, inputNamePlaceholder }: Props) {
+export default function Form1({
+  className,
+  btnNameInput,
+  inputNamePlaceholder,
+}: Props) {
   return (
-    <div className="w-full flex items-center justify-center">
+    <div className={`w-full flex items-center justify-center ${className}`}>
       <div className="lg:max-w-[30rem]">
         <form
           action=""
@@ -20,11 +25,11 @@ export default function Form1({ btnNameInput, inputNamePlaceholder }: Props) {
             placeholder={inputNamePlaceholder}
             className="border border-black h-auto min-h-11 mb-0 px-2 py-3 text-base leading-relaxed bg-white text-black"
           />
-          <ButtonSubmit>{btnNameInput}</ButtonSubmit>
+          <ButtonSubmit className="">{btnNameInput}</ButtonSubmit>
         </form>
-        <div className="text-black text-xs">
+        <div className={` text-xs`}>
           By clicking Sign Up you're confirming that you agree with our{" "}
-          <ButtonLink2>Terms and Conditions</ButtonLink2>
+          <ButtonLink2 className={className}>Terms and Conditions</ButtonLink2>
         </div>
       </div>
     </div>
