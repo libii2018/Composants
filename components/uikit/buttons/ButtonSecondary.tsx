@@ -7,7 +7,7 @@ type Props = {
 
 export default function ButtonSecondary({ children }: Props) {
   return (
-    <Button variant={"secondary"} size={"secondary"}>
+    <Button className="bg-blue-500" variant={"secondary"} size={"secondary"}>
       {children}
     </Button>
   );

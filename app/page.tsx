@@ -18,7 +18,7 @@ export default function Home() {
     <div className="w-max-[1440px]">
       <h1>Header 1</h1>
       <Header />
-      <h1>Header 2</h1>
+      {/* <h1>Header 2</h1>
       <Header1 />
       <h1>Header 3</h1>
       <Header2 />
@@ -43,7 +43,7 @@ export default function Home() {
       <h1>Header 13</h1>
       <Header12 />
       <h1>Header 14</h1>
-      <Header13 />
+      <Header13 /> */}
     </div>
   );
 }
