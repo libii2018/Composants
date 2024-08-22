@@ -6,9 +6,9 @@ type Props = {
   className: string;
 };
 
-export default function ButtonThird({ className, children }: Props) {
+export default function ButtonSix({ className, children }: Props) {
   return (
-    <Button className={className} variant={"third"} size={"third"}>
+    <Button className={className} variant={"six"} size={"six"}>
       {children}
     </Button>
   );

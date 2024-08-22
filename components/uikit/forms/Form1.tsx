@@ -6,15 +6,17 @@ type Props = {
   btnNameInput: string;
   inputNamePlaceholder: string;
   className: string;
+  btnColor: string;
 };
 
 export default function Form1({
   className,
   btnNameInput,
   inputNamePlaceholder,
+  btnColor,
 }: Props) {
   return (
-    <div className={`w-full flex items-center justify-center ${className}`}>
+    <div className={`w-full flex items-center ${className}`}>
       <div className="lg:max-w-[30rem]">
         <form
           action=""
@@ -29,7 +31,7 @@ export default function Form1({
         </form>
         <div className={` text-xs`}>
           By clicking Sign Up you're confirming that you agree with our{" "}
-          <ButtonLink2 className={className}>Terms and Conditions</ButtonLink2>
+          <ButtonLink2 className={btnColor}>Terms and Conditions</ButtonLink2>
         </div>
       </div>
     </div>

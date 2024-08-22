@@ -3,12 +3,13 @@ import React from "react";
 
 type Props = {
   children: string;
+  className: string;
 };
 
-export default function ButtonFive({ children }: Props) {
+export default function ButtonFive({ className, children }: Props) {
   return (
-    <Button variant={"five"} size={"five"}>
-      Button
+    <Button className={className} variant={"five"} size={"five"}>
+      {children}
     </Button>
   );
 }

@@ -3,22 +3,21 @@ import React from "react";
 import HeaderGen from "../uikit/layout/headers/HeaderGen";
 import ModuleHeadOverlay from "../uikit/layout/headers/module/ModuleHeadOverlay";
 
-export default function Header7() {
+export default function Header17() {
   return (
     <HeaderGen
-      Version="v4"
+      Version="horizontal2"
       title="Medium length section heading goes here"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
       varius enim in eros elementum tristique. Duis cursus, mi quis
       viverra ornare, eros dolor interdum nulla, ut commodo diam libero
       vitae erat."
-      btnName1="button"
-      btnName2="button"
-      btnType={3}
+      btnNameInput="Sign up"
+      inputNamePlaceholder="Enter your email"
       image={
-        <ModuleHeadOverlay>
+        <ModuleHeadOverlay className="bg-white/20">
           <Image
-            src="img/6243807090316259584aee68_placeholder-video-thumbnail.svg"
+            src="img/6243807090316203124aee66_placeholder-image.svg"
             width={550}
             height={550}
             alt="palcehplder"

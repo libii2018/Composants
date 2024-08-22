@@ -14,6 +14,7 @@ const buttonVariants = cva("", {
       third: "bg-black text-white border-black",
       four: "bg-transparent text-center text-white border-white",
       five: "bg-transparent text-center text-black border-black",
+      six: "bg-transparent text-center text-white border-white",
       submit: "bg-black text-white border-black text-center",
     },
     size: {
@@ -27,6 +28,7 @@ const buttonVariants = cva("", {
       third: "border-2 py-3 px-6",
       four: "border-2 py-3 px-6",
       five: "border-2 py-3 px-6",
+      six: "border-2 py-3 px-6",
       submit: "border-x px-6 py-3",
     },
   },

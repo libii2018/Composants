@@ -4,7 +4,7 @@ import HeaderGen from "../uikit/layout/headers/HeaderGen";
 export default function Header() {
   return (
     <HeaderGen
-      orientation="horizontal"
+      Version="vertical"
       tag="Tagline"
       title="Medium length section heading goes here"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -13,6 +13,7 @@ export default function Header() {
         vitae erat."
       btnName1="button"
       btnName2="button"
+      btnType={2}
       image={
         <Image
           src="img/6243807090316259584aee68_placeholder-video-thumbnail.svg"
