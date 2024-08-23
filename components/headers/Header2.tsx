@@ -13,17 +13,7 @@ export default function Header2() {
       vitae erat."
       btnNameInput="Sign up"
       inputNamePlaceholder="Enter your email"
-      image={
-        <ModuleHeadOverlay>
-          <Image
-            src="img/6243807090316259584aee68_placeholder-video-thumbnail.svg"
-            width={550}
-            height={550}
-            alt="palcehplder"
-            className="w-full h-full object-cover"
-          />
-        </ModuleHeadOverlay>
-      }
+      imageOverlayVideo="img/6243807090316259584aee68_placeholder-video-thumbnail.svg"
     />
   );
 }

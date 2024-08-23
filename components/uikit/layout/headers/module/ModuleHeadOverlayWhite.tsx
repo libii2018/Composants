@@ -1,5 +1,11 @@
 import React from "react";
 
+/**
+ * Component allowing the addition of overlays with videos to headers
+ * @param {string} className Allows adding CSS classes
+ * @param {string} children JSX component Image from nextjs/img
+ */
+
 type Props = {
   children: React.ReactNode;
   className: string;

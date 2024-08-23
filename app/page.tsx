@@ -17,6 +17,11 @@ import Header16 from "@/components/headers/Header16";
 import Header from "@/components/headers/Header";
 import Header17 from "@/components/headers/Header17";
 import Header18 from "@/components/headers/Header18";
+import Header19 from "@/components/headers/Header19";
+import Header20 from "@/components/headers/Header20";
+import Header21 from "@/components/headers/Header21";
+import Header22 from "@/components/headers/Header22";
+import Header23 from "@/components/headers/Header23";
 
 export default function Home() {
   return (
@@ -59,6 +64,16 @@ export default function Home() {
       <Header17 />
       <h1>Header version horizontal</h1>
       <Header18 />
+      <h1>Header version horizontal</h1>
+      <Header19 />
+      <h1>Header version horizontal</h1>
+      <Header20 />
+      <h1>Header version horizontal</h1>
+      <Header21 />
+      <h1>Header version horizontal</h1>
+      <Header22 />
+      <h1>Header version horizontal</h1>
+      <Header23 />
     </div>
   );
 }

@@ -15,17 +15,7 @@ export default function Header13() {
       btnName1="button"
       btnName2="button"
       btnType={3}
-      image={
-        <ModuleHeadOverlay className="">
-          <Image
-            src="img/6243807090316203124aee66_placeholder-image.svg"
-            width={550}
-            height={550}
-            alt="palcehplder"
-            className="w-full h-full object-cover"
-          />
-        </ModuleHeadOverlay>
-      }
+      imageBgOverlay="img/6243807090316203124aee66_placeholder-image.svg"
     />
   );
 }

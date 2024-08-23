@@ -1,3 +1,9 @@
+/**
+ * Card component title
+ * @param {string} className Allows adding CSS classes
+ * @param {string} children JSX component Image from nextjs/img
+ */
+
 import React from "react";
 
 type Props = {

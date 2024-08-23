@@ -14,15 +14,7 @@ export default function Header() {
       btnName1="button"
       btnName2="button"
       btnType={2}
-      image={
-        <Image
-          src="img/6243807090316259584aee68_placeholder-video-thumbnail.svg"
-          width={1263}
-          height={152}
-          alt="palcehplder"
-          className="w-full  h-full object-cover"
-        />
-      }
+      image="img/6243807090316259584aee68_placeholder-video-thumbnail.svg"
     />
   );
 }

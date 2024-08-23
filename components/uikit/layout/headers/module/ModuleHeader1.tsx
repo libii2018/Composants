@@ -1,3 +1,16 @@
+/**
+ * Header card component
+ * @param {string} tag It allows adding a tag to the headers
+ * @param {string} title It allows adding a title to the headers
+ * @param {string} description It allows adding a description to the headers
+ * @param {string} btnName1 It allows naming the left button
+ * @param {string} btnName2 It allows naming the right button
+ * @param {string} btnNameInput It allows naming the form button
+ * @param {string} inputNamePlaceholder It allows naming the input placeholder
+ * @param {string} Version It allows choosing different header templates
+ * @param {string} btnType It allows choosing the button layout
+ */
+
 import ButtonFive from "@/components/uikit/buttons/ButtonFive";
 import ButtonFour from "@/components/uikit/buttons/ButtonFour";
 import ButtonLink from "@/components/uikit/buttons/ButtonLink";
@@ -45,6 +58,7 @@ export default function ModuleHeader1({
   let classname7: string = "";
   let classname8: string = "";
   let classname9: string = "";
+  let classname10: string = "";
   let btnColor: string = "";
   if (Version === "vertical") {
     classname1 = "flex flex-col";
@@ -79,11 +93,26 @@ export default function ModuleHeader1({
   } else if (Version === "v5") {
     classname1 = "flex flex-col gap-y-12 text-black";
     btnColor = "text-black";
+  } else if (Version === "v6") {
+    classname1 = "flex flex-col gap-y-12 text-black mb-20";
+    classname2 = "flex flex-col max-w-[48rem]";
+    classname10 = "mb-6";
+    classname5 = "mb-8";
+    btnColor = "text-black";
+  } else if (Version === "v7") {
+    classname1 =
+      "flex flex-col justify-center items-center gap-y-12 text-black mb-20";
+    classname2 = " max-w-[48rem]";
+    classname10 = "mb-6 text-center";
+    classname3 = "text-center";
+    classname5 = "mb-8";
+    classname6 = "flex flex-row justify-center items-center";
+    btnColor = "text-black";
   }
   return (
     <div className={classname1}>
       <Card className={classname2}>
-        <div>
+        <div className={classname10}>
           {tag && <CardTag>{tag}</CardTag>}
           <CardTitle className="">{title}</CardTitle>
         </div>

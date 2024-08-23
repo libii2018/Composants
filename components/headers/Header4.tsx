@@ -14,17 +14,7 @@ export default function Header4() {
       btnName1="button"
       btnName2="button"
       btnType={2}
-      image={
-        <ModuleHeadOverlayWhite className="">
-          <Image
-            src="img/6243807090316259584aee68_placeholder-video-thumbnail.svg"
-            width={550}
-            height={550}
-            alt="palcehplder"
-            className="w-full h-full object-cover"
-          />
-        </ModuleHeadOverlayWhite>
-      }
+      imageOverlay="img/6243807090316259584aee68_placeholder-video-thumbnail.svg"
     />
   );
 }

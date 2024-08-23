@@ -1,3 +1,11 @@
+/**
+ * A form with a link
+ * @param {string} btnNameInput It allows naming the form button
+ * @param {string} inputNamePlaceholder It allows naming the input placeholder
+ * @param {string} className Allows adding CSS classes
+ * @param {string} btnColor Allows changing the link color
+ */
+
 import React from "react";
 import ButtonSubmit from "../buttons/ButtonSubmit";
 import ButtonLink2 from "../buttons/ButtonLink2";
