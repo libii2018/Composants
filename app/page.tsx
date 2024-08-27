@@ -22,11 +22,36 @@ import Header20 from "@/components/headers/Header20";
 import Header21 from "@/components/headers/Header21";
 import Header22 from "@/components/headers/Header22";
 import Header23 from "@/components/headers/Header23";
+import Header24 from "@/components/headers/Header24";
+import Header25 from "@/components/headers/Header25";
+import Header26 from "@/components/headers/Header26";
+import Header27 from "@/components/headers/Header27";
+import Header28 from "@/components/headers/Header28";
+import Header29 from "@/components/headers/Header29";
+import Header30 from "@/components/headers/Header30";
+import Header31 from "@/components/headers/Header31";
+import Cta1 from "@/components/cta/Cta1";
+import Cta2 from "@/components/cta/Cta2";
+import Cta3 from "@/components/cta/CTa3";
+import Cta4 from "@/components/cta/Cta4";
+import Cta5 from "@/components/cta/Cta5";
+import Cta6 from "@/components/cta/Cta6";
+import Cta7 from "@/components/cta/Cta7";
+import Cta8 from "@/components/cta/Cta8";
+import Cta9 from "@/components/cta/Cta9";
+import Cta10 from "@/components/cta/Cta10";
+import Cta11 from "@/components/cta/Cta11";
+import Cta12 from "@/components/cta/Cta12";
+import Cta13 from "@/components/cta/Cta13";
+import Cta14 from "@/components/cta/Cta14";
+import Cta15 from "@/components/cta/Cta15";
+import Cta16 from "@/components/cta/Cta16";
+import Cta17 from "@/components/cta/Cta17";
 
 export default function Home() {
   return (
     <div className="">
-      <h1>Header version vertical</h1>
+      {/* <h1>Header version vertical</h1>
       <Header />
       <h1>Header version vertical</h1>
       <Header1 />
@@ -70,10 +95,60 @@ export default function Home() {
       <Header20 />
       <h1>Header version horizontal</h1>
       <Header21 />
-      <h1>Header version horizontal</h1>
+      <h1>Header v6</h1>
       <Header22 />
-      <h1>Header version horizontal</h1>
+      <h1>Header v7</h1>
       <Header23 />
+      <h1>Header v8</h1>
+      <Header24 />
+      <h1>Header v9</h1>
+      <Header25 />
+      <h1>Header v10</h1>
+      <Header26 />
+      <h1>Header v11</h1>
+      <Header27 />
+      <h1>Header v12</h1>
+      <Header28 />
+      <h1>Header v13</h1>
+      <Header29 />
+      <h1>Header v14</h1>
+      <Header30 />
+      <h1>Header v15</h1>
+      <Header31 /> */}
+      <h1>CTA 1</h1>
+      <Cta1 />
+      <h1>CTA 2</h1>
+      <Cta2 />
+      <h1>CTA 2</h1>
+      <Cta3 />
+      <h1>CTA 3</h1>
+      <Cta4 />
+      <h1>CTA 3</h1>
+      <Cta5 />
+      <h1>CTA 3</h1>
+      <Cta6 />
+      <h1>CTA 5</h1>
+      <Cta7 />
+      <h1>CTA 6</h1>
+      <Cta8 />
+      <h1>CTA 7</h1>
+      <Cta9 />
+      <h1>CTA 8</h1>
+      <Cta10 />
+      <h1>CTA 9</h1>
+      <Cta11 />
+      <h1>CTA 9</h1>
+      <Cta12 />
+      <h1>CTA 9</h1>
+      <Cta13 />
+      <h1>CTA 10</h1>
+      <Cta14 />
+      <h1>CTA 11</h1>
+      <Cta15 />
+      <h1>CTA 12</h1>
+      <Cta16 />
+      <h1>CTA 13</h1>
+      <Cta17 />
     </div>
   );
 }

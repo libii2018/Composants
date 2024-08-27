@@ -23,19 +23,19 @@ import Image from "next/image";
 import ModuleHeadOverlayWhite from "./module/ModuleHeadOverlayWhite";
 
 type Props = {
-  tag: string;
-  title: string;
-  description: string;
-  btnName1: string;
-  btnName2: string;
-  btnNameInput: string;
-  inputNamePlaceholder: string;
-  Version: string;
-  image: string;
-  btnType: number;
-  imageOverlay: string;
-  imageBgOverlay: string;
-  imageOverlayVideo: string;
+  tag?: string;
+  title?: string;
+  description?: string;
+  btnName1?: string;
+  btnName2?: string;
+  btnNameInput?: string;
+  inputNamePlaceholder?: string;
+  Version?: string;
+  image?: string;
+  btnType?: number;
+  imageOverlay?: string;
+  imageBgOverlay?: string;
+  imageOverlayVideo?: string;
 };
 
 export default function HeaderGen({
@@ -95,6 +95,30 @@ export default function HeaderGen({
   } else if (Version === "v7") {
     classname2 = "flex flex-col h-[100svh] min-h-[100svh] ";
     classname3 = "w-full relative  h-[65%]";
+  } else if (Version === "v8") {
+    classname2 =
+      "flex flex-col lg:grid lg:grid-cols-2 lg:gap-x-16 lg:items-center";
+  } else if (Version === "v9") {
+    classname2 =
+      "flex flex-col lg:grid lg:grid-cols-2 lg:gap-x-16 lg:items-center";
+  } else if (Version === "v10") {
+    classname2 =
+      "flex flex-col lg:grid lg:grid-cols-2 lg:gap-x-16 lg:items-center";
+  } else if (Version === "v11") {
+    classname2 =
+      "flex flex-col lg:grid lg:grid-cols-2 lg:gap-x-16 lg:items-center";
+  } else if (Version === "v12") {
+    classname2 =
+      "flex flex-col lg:grid lg:grid-cols-2 lg:gap-x-16 lg:items-center";
+  } else if (Version === "v13") {
+    classname2 =
+      "flex flex-col lg:grid lg:grid-cols-2 lg:gap-x-16 lg:items-center";
+  } else if (Version === "v14") {
+    classname2 =
+      "flex flex-col lg:grid lg:grid-cols-2 lg:gap-x-16 lg:items-center";
+  } else if (Version === "v15") {
+    classname2 =
+      "flex flex-col lg:grid lg:grid-cols-2 lg:gap-x-40 lg:items-center";
   }
   return (
     <div className={`px-[5%] py-16 lg:h-[100vh] ${classname1}`}>

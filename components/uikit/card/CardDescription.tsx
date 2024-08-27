@@ -3,10 +3,9 @@
  * @param {string} className Allows adding CSS classes
  * @param {string} children JSX component Image from nextjs/img
  */
-import React from "react";
 type Props = {
-  children: string;
-  className: string;
+  children?: string;
+  className?: string;
 };
 
 export default function CardDescription({ className, children }: Props) {

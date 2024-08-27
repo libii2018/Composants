@@ -4,10 +4,9 @@
  * @param {string} children JSX component Image from nextjs/img
  */
 
-import React from "react";
-
 type Props = {
-  children: string;
+  children?: string;
+  className?: string;
 };
 
 export default function CardTag({ children }: Props) {

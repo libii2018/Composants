@@ -1,9 +1,9 @@
 import HeaderGen from "../uikit/layout/headers/HeaderGen";
 
-export default function Header() {
+export default function Header28() {
   return (
     <HeaderGen
-      Version="vertical"
+      Version="v12"
       tag="Tagline"
       title="Medium length section heading goes here"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
