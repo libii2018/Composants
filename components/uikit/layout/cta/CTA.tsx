@@ -14,6 +14,7 @@
  * @param {string} imageOverlayVideo It allows setting the video path for the overlay
  * @param {string} imageBgOverlay It allows setting the image path for the header overlay background
  * @param {string} btnType It allows choosing the button layout
+ * @param {string} colorText 
  */
 
 import React from "react";
@@ -36,7 +37,7 @@ type Props = {
   imageOverlay?: string;
   imageBgOverlay?: string;
   imageOverlayVideo?: string;
-  colorText?: string;
+  colorText?: "white" | "black";
 };
 
 export default function CTA({

@@ -47,6 +47,7 @@ import Cta14 from "@/components/cta/Cta14";
 import Cta15 from "@/components/cta/Cta15";
 import Cta16 from "@/components/cta/Cta16";
 import Cta17 from "@/components/cta/Cta17";
+import Navbar1 from "@/components/navbar/Navbar1";
 
 export default function Home() {
   return (
@@ -115,7 +116,7 @@ export default function Home() {
       <Header30 />
       <h1>Header v15</h1>
       <Header31 /> */}
-      <h1>CTA 1</h1>
+      {/* <h1>CTA 1</h1>
       <Cta1 />
       <h1>CTA 2</h1>
       <Cta2 />
@@ -148,7 +149,10 @@ export default function Home() {
       <h1>CTA 12</h1>
       <Cta16 />
       <h1>CTA 13</h1>
-      <Cta17 />
+      <Cta17 /> */}
+      <h1>Navbar 1</h1>
+      <Navbar1 />
+      <div>YOOOO</div>
     </div>
   );
 }

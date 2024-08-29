@@ -9,6 +9,7 @@
  * @param {string} inputNamePlaceholder It allows naming the input placeholder
  * @param {string} Version It allows choosing different header templates
  * @param {string} btnType It allows choosing the button layout
+ * @param {string} colorText
  */
 
 import ButtonFive from "@/components/uikit/buttons/ButtonFive";
@@ -98,7 +99,7 @@ export default function ModuleHeader1({
   } else if (Version === "3") {
     classname1 = "flex flex-col";
     classname2 = "flex flex-col lg:flex-row justify-between gap-x-16";
-    classname10 = "${classname10} font-extrabold";
+    classname10 = `${classname10} font-extrabold`;
   } else if (Version === "4") {
     classname1 = "flex flex-col";
     classname2 = "flex flex-col lg:flex-row justify-between gap-x-16";
